@@ -7,11 +7,13 @@
 ## About
 - This project is performed by students of the Baltic Institute of Technology. 
 - Studies field: JavaScript.
-- ***Our team's project has been born for educational purposes only. Pull requests are welcome, but priority is for BIT group 30 members! Thank you for your comprehension!***
+#### ***Our team's project has been born for educational purposes only. Pull requests are welcome, but priority is for BIT group 30 members! Thank you for your comprehension!***
+#
 
 Site published at: https://front-end-by-rimantas.github.io/30-grupe-portfolio-daniels/
 
 Design: ["Portfolio-Daniels"](http://www.innovationplans.com/idesign/daniels/particles.html)
+#
 
 ## Project features
 
@@ -25,15 +27,16 @@ Design: ["Portfolio-Daniels"](http://www.innovationplans.com/idesign/daniels/par
 - CSS animations
 - CSS import
 - JS import-export
+#
 
 ## Authors
 Students |Github
 ---------| -----------
-[Kšištofas Račkovskis](https://github.com/NoTKrISSS)
-[Mantvydas Labanauskas](https://github.com/MantvydasLabane)
-[Laura Žukaitė](https://github.com/LauraTechnology)
-[Ieva Zabolevičiūtė](https://github.com/plukenis)
-[Dovile Keparute](https://github.com/dkeparute)
+Kšištofas Račkovskis | [----->](https://github.com/NoTKrISSS)
+Mantvydas Labanauskas | [----->](https://github.com/MantvydasLabane)
+Laura Žukaitė | [----->](https://github.com/LauraTechnology)
+Ieva Zabolevičiūtė | [----->](https://github.com/plukenis)
+Dovile Keparute | [----->](https://github.com/dkeparute)
 
 
 
