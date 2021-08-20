@@ -1,16 +1,28 @@
 {
   "name": "daniels-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)\r ![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)\r ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)\r ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)",
   "main": "index.js",
   "scripts": {
     "dev": "live-server --port=3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["html5", "css3", "es6"],
+  "keywords": [
+    "html5",
+    "css3",
+    "es6"
+  ],
   "author": "Dovile Keparute, Ieva Zabolevičiūtė, Laura Žukaitė, Kšištofas Račkovskis, Mantvydas Labanauskas",
   "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/front-end-by-rimantas/30-grupe-portfolio-daniels.git"
+  },
+  "bugs": {
+    "url": "https://github.com/front-end-by-rimantas/30-grupe-portfolio-daniels/issues"
+  },
+  "homepage": "https://github.com/front-end-by-rimantas/30-grupe-portfolio-daniels#readme"
 }
