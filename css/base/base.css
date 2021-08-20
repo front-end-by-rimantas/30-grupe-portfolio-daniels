@@ -7,12 +7,10 @@
 
 .container > .row {
     display: inline-block;
-    width;
     background-color: aqua;
 }
 
 .container > .small-row {
     display: inline-block;
-    width;
     background-color: bisque;
 }
