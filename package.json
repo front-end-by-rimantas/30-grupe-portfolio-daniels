@@ -1,5 +1,5 @@
 {
-  "name": "landrick-portfolio",
+  "name": "daniels-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["html5", "css3", "es6"],
-  "author": "Rimantas Belovas",
+  "author": "Dovile Keparute, Ieva Zabolevičiūtė, Laura Žukaitė, Kšištofas Račkovskis, Mantvydas Labanauskas",
   "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.1"
