@@ -1,0 +1,20 @@
+/*.container {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 80px 0;
+}
+
+.container > .row {
+    display: inline-block;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.container > .small-row {
+    display: inline-block;
+    background-color: bisque;
+}
+*/
