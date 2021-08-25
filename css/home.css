@@ -27,30 +27,80 @@
 
 
 /* HERO START */
-.hero {
+.hero{
     min-height: 100vh;
-    background-image: url(../img/bg-main.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-main.jpg);
     background-size: cover;
     background-position: center;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
+    text-align: center;
     margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.hero  .container {
+.hero > .row > .intro{
+    background: none;
 }
 
-.iam-wrapper {
+.hero > .row > .intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.hero > .row > h1 {
+    font-size: 60px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    color: white;
+    background: none;
     
 }
 
-.hero  h1 {
-    color: red;
+.hero > .row > .intro > p{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: white;
+    background: none; 
+    margin-bottom: 20px;
 }
 
-.iam-wrapper {
+.hero > .row > .intro > span{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: white;
+    background: none; 
+    margin-bottom: 20px;
+
+}
+
+.hero > .row > .socials {
+    background: none;
+    margin-top: 40px;
+}
+
+.hero > .row > .socials > .fa {
+    color: white;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+@media (max-width: 760px) {
+    .hero > .row > .intro {
+        flex-direction: column;
+    }
 }
 
 /* HERO END */
