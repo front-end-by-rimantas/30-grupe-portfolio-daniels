@@ -27,7 +27,31 @@
 
 
 /* HERO START */
+.hero {
+    min-height: 100vh;
+    background-image: url(../img/bg-main.jpg);
+    background-size: cover;
+    background-position: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    margin-bottom: 100px;
+}
 
+.hero  .container {
+}
+
+.iam-wrapper {
+    
+}
+
+.hero  h1 {
+    color: red;
+}
+
+.iam-wrapper {
+}
 
 /* HERO END */
 
