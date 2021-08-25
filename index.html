@@ -23,11 +23,21 @@
     <!-- HEADER END -->
 
     <!-- HERO START -->
-    <section class="container">
+    <section class="container hero">
+        <div class="particles"></div>
         <div class="row">
-            <div class="col-12">Hello.</div>
-            <div class="col-12">I Am Larry Daniels Developer Designer</div>
-            <div class="col-12">SOCIALS</div>
+            <h1 class="col-12">Hello.</h1>
+            <div class="intro col-12" >
+            <p class="">I Am </p>
+            <span class="moving-text">Larry Daniels Developer Designer</span>
+            </div>
+            <div class="col-12 socials">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-behance"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
         </div>
     </section>
     <!-- HERO END -->
@@ -119,28 +129,45 @@
     <!-- CONTACT US START -->
     <section class="container">
         <div class="row">
-            <h2 class="col-12">Contact us.</h2>
+            <div class="section-head col-12">
+                <h2>Contact us.</h2>
+            </div>
         </div>
         <div class="row">
-            <div class="col-12 col-lg-10 ml-lg-1">
-                <div>Address</div>
-                <div>Email</div>
-                <div>Phone</div>
+            <div class="info col-12 col-lg-10 ml-lg-1">
+                <div class="item">
+                    <span class="icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></span>
+                    <h3>Address</h3>
+                    <p>6834 Hollywood Blvd - Los Angeles CA</p>
+                </div>
+                <div class="item">
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <h3>Email</h3>
+                    <p>Support@website.com</p>
+                </div>
+                <div class="item">
+                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <h3>Phone</h3>
+                    <p>+20 010 2517 8918</p>
+                </div>
+
             </div>
             <div class="row">
-                <form class="col-12 col-lg-10 ml-lg-1"></form>
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <textarea placeholder="Message"></textarea>
-                <div class="button">Submit</div>
+                <form class="form col-12 col-lg-10 ml-lg-1">
+                    <input type="text" name="name" placeholder="Name" required="required">
+                    <input type="text" name="email" placeholder="Email" required="required">
+                    <textarea name="message" placeholder="Message" required="required"></textarea>
+                    <button class="button" type="submit" value="Submit">Submit</button>
+                </form>
+
             </div>
         </div>
     </section>
     <!-- CONTACT US END -->
 
     <!-- FOOTER START -->
-    <footer class="container">
-        <p>Lorem ipsum dolor sit amet.</p>
+    <footer class="container bg-footer">
+        <p>Copy Right 2018 &copy; By Daniels All Rights Reserved</p>
     </footer>
     <!-- FOOTER END -->
 
