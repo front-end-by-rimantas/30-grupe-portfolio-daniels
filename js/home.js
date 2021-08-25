@@ -21,7 +21,7 @@ import { servicesData } from "./data/servicesData";
 
 
 /* SERVICES START */
-services ('', servicesData)
+services ('#service_block', servicesData);
 /* SERVICES END */
 
 
