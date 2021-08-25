@@ -1,38 +1,38 @@
 const servicesData = [
     {
         icon: 'globe',
-        title: '',
-        description: '',
+        title: 'Web Design',
+        description: 'Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever',
         isActive: true,
     },
     {
         icon: 'globe',
-        title: '',
-        description: '',
+        title: 'Branding',
+        description: 'Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever',
         isActive: true,
     },
     {
         icon: 'globe',
-        title: '',
-        description: '',
+        title: 'Development',
+        description: 'Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever',
         isActive: true,
     },
     {
         icon: 'globe',
-        title: '',
-        description: '',
+        title: 'Creative Design',
+        description: 'Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever',
         isActive: true,
     },
     {
         icon: 'globe',
-        title: '',
-        description: '',
+        title: 'Fully Responsive',
+        description: 'Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever',
         isActive: true,
     },
-    {
+      {
         icon: 'globe',
-        title: '',
-        description: '',
+        title: 'Retina Ready',
+        description: 'Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever',
         isActive: true,
     },
     
