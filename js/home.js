@@ -1,6 +1,6 @@
 // import JS modules
 
-import { services } from "./components/services/services";
+import { services } from "./components/services/services.js";
 import { servicesData } from "./data/servicesData";
 
 // execute JS modules
