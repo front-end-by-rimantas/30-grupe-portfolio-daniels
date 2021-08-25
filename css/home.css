@@ -144,6 +144,10 @@ contact .container {
     border: 0;
 }
 
+.form input:focus-visible {
+    outline: none;
+}
+
 .form input:last-of-type {
     width: 48%;
     float: right;
@@ -160,6 +164,10 @@ contact .container {
     border: 0;
 }
 
+.form textarea:focus-visible {
+    outline: none;
+}
+
 .form .button {
     padding: 10px 40px;
     margin-top: 10px;
@@ -171,6 +179,7 @@ contact .container {
 .form .button:hover {
     background-color: #f4f4f4;
     color: grey;
+    cursor: pointer;
 }
 
 @media (max-width: 500px) {
