@@ -1,9 +1,24 @@
 /* RASOMI BENDRINIAI STILIAI PVZ PARAGRAFAS, NUORODA */
 
 .bg-footer {
-    background-color: var(--footer-color);
+    background-color: var(--black-color);
 }
 
 .bg-contact {
-    background-color: var(--contact-color);
+    background-color: var(--white-color);
+}
+
+.bg-blog {
+    background-color: var(--light-grey-color);
+}
+
+.container {
+    padding: 100px 0px;
+    width: 100%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    display: inline-block;
 }

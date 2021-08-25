@@ -29,9 +29,10 @@
 
 
 /* HERO START */
-.hero{
+
+.hero {
     min-height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-main.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-main.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -43,11 +44,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.hero > .row > .intro{
+.hero>.row>.intro {
     background: none;
 }
 
-.hero > .row > .intro {
+.hero>.row>.intro {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,40 +56,38 @@
     gap: 7px;
 }
 
-.hero > .row > h1 {
+.hero>.row>h1 {
     font-size: 60px;
     font-weight: 1000;
     margin-bottom: 20px;
     color: white;
     background: none;
-    
 }
 
-.hero > .row > .intro > p{
+.hero>.row>.intro>p {
     font-size: 40px;
     font-weight: 300;
     margin-bottom: 10px;
     color: white;
-    background: none; 
+    background: none;
     margin-bottom: 20px;
 }
 
-.hero > .row > .intro > span{
+.hero>.row>.intro>span {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 10px;
     color: white;
-    background: none; 
+    background: none;
     margin-bottom: 20px;
-
 }
 
-.hero > .row > .socials {
+.hero>.row>.socials {
     background: none;
     margin-top: 40px;
 }
 
-.hero > .row > .socials > .fa {
+.hero>.row>.socials>.fa {
     color: white;
     font-size: 16px;
     width: 35px;
@@ -100,10 +99,11 @@
 }
 
 @media (max-width: 760px) {
-    .hero > .row > .intro {
+    .hero>.row>.intro {
         flex-direction: column;
     }
 }
+
 
 /* HERO END */
 
@@ -139,6 +139,15 @@
 
 
 /* BLOG START */
+
+.row>.section-head {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.section-head h2 {
+    background-image: url(http://www.innovationplans.com/idesign/daniels/img/dots.png);
+}
 
 
 /* BLOG END  */
