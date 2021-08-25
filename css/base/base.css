@@ -1,0 +1,9 @@
+/* RASOMI BENDRINIAI STILIAI PVZ PARAGRAFAS, NUORODA */
+
+.bg-footer {
+    background-color: var(--footer-color);
+}
+
+.bg-contact {
+    background-color: var(--contact-color);
+}
