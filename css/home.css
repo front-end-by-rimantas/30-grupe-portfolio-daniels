@@ -6,11 +6,13 @@
 @import './base/layout.css';
 
 /* 3rd-party */
+
 @import './3rd-party/font-awesome.min.css';
 
 /* components */
 
 @import './components/button.css';
+@import './components/contact-us.css';
 @import './components/footer.css';
 @import './components/header.css';
 
@@ -70,25 +72,33 @@
 
 /* CONTACT US START */
 
+.form .button {
+    margin-top: 10px;
+}
+
+.form .button:hover {
+    background-color: #fff;
+    color: grey;
+}
+
+@media (max-width: 500px) {
+    .container>.row>.info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .form input,
+    .form input:last-of-type {
+        width: 100%;
+    }
+}
+
 
 /* CONTACT US END */
 
 
 /* FOOTER START */
-
-.bg-footer {
-    background-color: var(--footer-color);
-}
-
-footer.container {
-    padding: 30px 0;
-    color: #748182;
-    font-size: 17px;
-    line-height: 1.6;
-    text-align: center;
-    word-spacing: 2px;
-    margin: 0;
-}
 
 
 /* FOOTER END */
