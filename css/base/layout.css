@@ -47,8 +47,8 @@
     float: left;
     margin-left: var(--half-gap);
     margin-right: var(--half-gap);
-    /* SPALVOS UZDEJIMAS VIZUALUI */
-    background-color: yellow;
+    /* SPALVOS UZDEJIMAS VIZUALUI
+    background-color: yellow; */
 }
 
 .row>.reverse {
