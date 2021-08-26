@@ -1,10 +1,12 @@
 .progress.bar{
   width: 100%;
   padding: 15px 0;
+  margin-bottom: 10px;
 }
+
 .progress.bar > .progress{
   width: 100%;
-  height: 20px;
+  height: 25px;
   background-color: gainsboro;
   border-radius: 5px;
 }
@@ -23,18 +25,18 @@
 }
 .progress.bar > .progress > .bar > .loading > .title{
   display: inline-block;
-  float: left;
   margin-left: 10px;
   font-size: 16px;
   line-height: 18px;
+  margin-top: 3px;
   color: rgb(250, 250, 250);
 }
 .progress.bar > .progress > .bar > .loading > .value{
   display: inline-block;
-  float: right;
   font-size: 16px;
   line-height: 18px;
   margin-right: 10px;
+  margin-top: 3px;
   color: rgb(250, 250, 250);
 }
 .progress.bar > .text > .value{
