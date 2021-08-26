@@ -7,8 +7,12 @@
             }
             
             .pictures img {
-                width: 400px;
-                height: 300px;
+                width: 320px;
+                height: 220px;
+            }
+            
+            .bitems {
+                margin-top: -30px;
             }
             
             .bitems>.content {
@@ -16,21 +20,22 @@
                 padding: 15px 0;
             }
             
-            .bitems>.content>h4 {
+            .bitems>.content>h5 {
                 font-size: 20px;
                 padding: 15px 0;
             }
             
-            .bitems>.content>h4>a {
+            .bitems>.content>h5>a {
                 text-decoration: none;
                 color: var(--black-color);
             }
             
-            .bitems>.content>h3 {
-                font-size: 15px;
+            .bitems>.content>h6 {
+                font-size: 12px;
+                padding: 10px 0;
             }
             
-            .bitems>.content>h3>a {
+            .bitems>.content>h6>a {
                 color: #748182;
                 text-decoration: none;
             }
@@ -38,14 +43,14 @@
             .bitems>.read {
                 background-color: var(--white-color);
                 font-size: 20px;
-                padding: 15px 0;
+                padding: 10px 0;
             }
             
-            .bitems>.read>a {
-                color: var(--black-color);
+            .bitems>.read>h6>a {
+                color: #748182;
             }
             
             .zoom:hover {
-                transform: scale(1.18);
-                transition: 0.5s;
+                transform: scale(1.1);
+                transition: 1s;
             }
