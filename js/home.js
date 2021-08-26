@@ -1,7 +1,9 @@
 // import JS modules
 
-// execute JS modules
+import { services } from "./components/services/services.js";
+import { servicesData } from "./data/servicesData";
 
+// execute JS modules
 
 /* HEADER START */
 
@@ -19,7 +21,7 @@
 
 
 /* SERVICES START */
-
+services ('#service_block', servicesData);
 /* SERVICES END */
 
 
