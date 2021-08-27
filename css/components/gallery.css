@@ -1,0 +1,9 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.gallery > .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
