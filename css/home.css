@@ -7,10 +7,13 @@
 
 /* 3rd-party */
 
+@import './3rd-party/font-awesome.min.css';
 
 /* components */
 
+@import './components/blog.css';
 @import './components/button.css';
+@import './components/contact-us.css';
 @import './components/footer.css';
 @import './components/header.css';
 @import './components/progress-bar.css';
@@ -29,6 +32,80 @@
 
 
 /* HERO START */
+
+.hero {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-main.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero>.row>.intro {
+    background: none;
+}
+
+.hero>.row>.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.hero>.row>h1 {
+    font-size: 60px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    color: white;
+    background: none;
+}
+
+.hero>.row>.intro>p {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: white;
+    background: none;
+    margin-bottom: 20px;
+}
+
+.hero>.row>.intro>span {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: white;
+    background: none;
+    margin-bottom: 20px;
+}
+
+.hero>.row>.socials {
+    background: none;
+    margin-top: 40px;
+}
+
+.hero>.row>.socials>.fa {
+    color: white;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+@media (max-width: 760px) {
+    .hero>.row>.intro {
+        flex-direction: column;
+    }
+}
 
 
 /* HERO END */
@@ -90,31 +167,48 @@
 
 /* BLOG START */
 
+.row>.section-head {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.section-head h2 {
+    background-image: url(http://www.innovationplans.com/idesign/daniels/img/dots.png);
+}
+
 
 /* BLOG END  */
 
 
 /* CONTACT US START */
 
+.form .button {
+    margin-top: 10px;
+}
+
+.form .button:hover {
+    background-color: #fff;
+    color: grey;
+}
+
+@media (max-width: 500px) {
+    .container>.row>.info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .form input,
+    .form input:last-of-type {
+        width: 100%;
+    }
+}
+
 
 /* CONTACT US END */
 
 
 /* FOOTER START */
-
-.bg-footer {
-    background-color: var(--footer-color);
-}
-
-footer.container {
-    padding: 30px 0;
-    color: #748182;
-    font-size: 17px;
-    line-height: 1.6;
-    text-align: center;
-    word-spacing: 2px;
-    margin: 0;
-}
 
 
 /* FOOTER END */

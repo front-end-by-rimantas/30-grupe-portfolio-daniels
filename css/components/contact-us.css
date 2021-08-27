@@ -1,0 +1,97 @@
+contact .container {
+    padding: 100px 0px;
+    width: 100%;
+}
+
+.row>.section-head {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.section-head h2 {
+    background-image: url(http://www.innovationplans.com/idesign/daniels/img/dots.png);
+    font-weight: bold;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.container>.row>.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.info>.item {
+    margin-bottom: 20px;
+}
+
+.info>.item>.icon {
+    display: inline-block;
+    font-size: 25px;
+    /* ikonos dydis */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--light-grey-color);
+    color: var(--black-color);
+    transition: all .5s;
+}
+
+.info>.item>.icon:hover {
+    background-color: var(--black-color);
+    color: var(--light-grey-color)4;
+}
+
+.fa {
+    display: inline-block;
+    margin-top: 17px;
+}
+
+.info .item h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.info .item p {
+    font-size: 15px;
+    color: #748182;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.form input {
+    width: 48%;
+    float: left;
+    border-radius: 5px;
+    padding: 10px;
+    background: var(--light-grey-color);
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.form input:focus-visible {
+    outline: none;
+}
+
+.form input:last-of-type {
+    width: 48%;
+    float: right;
+}
+
+.form textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    background: var(--light-grey-color);
+    min-height: 150px;
+    max-height: 250px;
+    max-width: 100%;
+    border: 0;
+    resize: vertical;
+}
+
+.form textarea:focus-visible {
+    outline: none;
+}
