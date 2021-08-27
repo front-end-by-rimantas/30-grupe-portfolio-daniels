@@ -1,0 +1,56 @@
+            .carousel {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 20px;
+                text-align: left;
+                font-stretch: narrower;
+            }
+            
+            .pictures img {
+                width: 320px;
+                height: 220px;
+            }
+            
+            .bitems {
+                margin-top: -30px;
+            }
+            
+            .bitems>.content {
+                background-color: var(--white-color);
+                padding: 15px 0;
+            }
+            
+            .bitems>.content>h5 {
+                font-size: 20px;
+                padding: 15px 0;
+            }
+            
+            .bitems>.content>h5>a {
+                text-decoration: none;
+                color: var(--black-color);
+            }
+            
+            .bitems>.content>h6 {
+                font-size: 12px;
+                padding: 10px 0;
+            }
+            
+            .bitems>.content>h6>a {
+                color: #748182;
+                text-decoration: none;
+            }
+            
+            .bitems>.read {
+                background-color: var(--white-color);
+                font-size: 20px;
+                padding: 10px 0;
+            }
+            
+            .bitems>.read>h6>a {
+                color: #748182;
+            }
+            
+            .zoom:hover {
+                transform: scale(1.1);
+                transition: 1s;
+            }
