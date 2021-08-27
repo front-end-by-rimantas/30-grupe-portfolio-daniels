@@ -40,9 +40,11 @@
     font-style: bold;
 }
 .about-me-row > p{
+    font-style: normal;
     color:#748182;
     font-size: 20px;
-    line-height: 35px;
+    line-height: 25px;
+    font-family: ;
 }
 .about-me-row > p:first-of-type{
     font-size: 18px;
@@ -51,14 +53,14 @@
     margin-bottom: 20px;;
 }
 
-.about-me-row > span{
+.about-me-row > p > span{
     font-style: bold;
+    color: black;
 }
 
-.progress.bar > .progress > .bar > .loading > .value{
+.progress-bar > .progress > .bar > .loading > .value{
     float: right;
 }
-
 /* ABOUT ME END */
 
 
