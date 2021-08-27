@@ -16,6 +16,8 @@
 @import './components/contact-us.css';
 @import './components/footer.css';
 @import './components/header.css';
+@import './components/progress-bar.css';
+@import './components/about-me.css';
 
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
 
@@ -110,8 +112,32 @@
 
 
 /* ABOUT ME START */
+.about-me-row h1 {
+    font-size: 40px;
+    font-style: bold;
+}
+.about-me-row > p{
+    font-style: normal;
+    color:#748182;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: ;
+}
+.about-me-row > p:first-of-type{
+    font-size: 18px;
+    color: #A699A3;
+    letter-spacing: 2px;
+    margin-bottom: 20px;;
+}
 
+.about-me-row > p > span{
+    font-style: bold;
+    color: black;
+}
 
+.progress-bar > .progress > .bar > .loading > .value{
+    float: right;
+}
 /* ABOUT ME END */
 
 

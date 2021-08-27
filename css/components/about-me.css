@@ -1,0 +1,34 @@
+.container-about-me {
+    width: 100%;
+    display: inline-block;
+  }   
+  
+  .container-about-me > .left {
+    display: inline-block;
+  }
+  
+  .container-about-me > .left img {
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  .container-about-me > .about-me-row {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 50px 20px 20px 50px;
+  }
+  .container-about-me > .about-me-row > p{
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .container-about-me > .about-me-row > span{
+    font-weight: bold;
+  }
+  
+  .container-about-me > .about-me-row > p:first-of-type{
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .container-about-me > .about-me-row > h1{
+    margin-bottom: 0;
+    font-weight: bolder;
+  }
