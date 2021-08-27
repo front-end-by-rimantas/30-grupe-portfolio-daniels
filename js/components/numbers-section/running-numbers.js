@@ -1,4 +1,4 @@
-const counters = document.querySelectorAll('.counter');
+const counters = document.querySelectorAll('.numbers');
 const speed = 200; // The lower the slower
 
 counters.forEach(counter => {
