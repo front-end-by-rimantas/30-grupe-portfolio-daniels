@@ -1,7 +1,9 @@
 // import JS modules
 
+import { runningNumbers } from "./components/numbers-section/running-numbers.js";
 import { services } from "./components/services/services.js";
 import { servicesData } from "./data/servicesData";
+
 
 // execute JS modules
 
@@ -36,7 +38,7 @@ services ('#service_block', servicesData);
 
 
 /* HAPPY CUSTOMERS/COMPLETE PROJECTS...ACHIEVEMENTS START */
-
+runningNumbers();
 /* HAPPY CUSTOMERS/COMPLETE PROJECTS...ACHIEVEMENTS END */
 
 
