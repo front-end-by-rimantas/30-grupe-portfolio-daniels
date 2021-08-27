@@ -1,34 +1,56 @@
 .container-about-me {
-    width: 100%;
-    display: inline-block;
-  }   
-  
-  .container-about-me > .left {
-    display: inline-block;
-  }
-  
-  .container-about-me > .left img {
-    box-sizing: border-box;
-    display: inline-block;
-  }
-  .container-about-me > .about-me-row {
-    box-sizing: border-box;
-    display: inline-block;
-    padding: 50px 20px 20px 50px;
-  }
-  .container-about-me > .about-me-row > p{
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .container-about-me > .about-me-row > span{
-    font-weight: bold;
-  }
-  
-  .container-about-me > .about-me-row > p:first-of-type{
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .container-about-me > .about-me-row > h1{
-    margin-bottom: 0;
-    font-weight: bolder;
-  }
+  width: 100%;
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+}
+
+.container-about-me > .left {
+  display: inline-block;
+}
+
+.container-about-me > .left img {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.hero-image {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.hero-image > img {
+  width: 100%;
+}
+
+.hero-image:before {
+  position: absolute;
+  left: 0px;
+  bottom: -30px;
+  width: 80%;
+  height: 80%;
+  content: "";
+  background-image: url(../../img/dots.png);
+  background-repeat: repeat;
+  z-index: -1;
+}
+.container-about-me > .about-me-row {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 50px 20px 20px 50px;
+}
+.container-about-me > .about-me-row > p {
+  font-size: 16px;
+  line-height: 10px;
+}
+.container-about-me > .about-me-row > span {
+  font-weight: bold;
+}
+
+.container-about-me > .about-me-row > p:first-of-type {
+  font-size: 16px;
+  line-height: 16px;
+}
+.container-about-me > .about-me-row > h1 {
+  margin-bottom: 0;
+  font-weight: bolder;
+}
