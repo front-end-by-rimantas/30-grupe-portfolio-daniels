@@ -1,0 +1,42 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header.container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+header.container > .row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+header.container > .row > .col-12 {
+    display: flex;
+    justify-content: space-between;
+}
+header .logo {
+    height:25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+header nav {
+    display: flex;
+    gap: 20px;
+    line-height: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+header nav > a{
+    text-decoration: inherit;
+    color: inherit;
+}
+header .hamburger {
+    line-height: 25px;
+    font-size: 25px;
+}
