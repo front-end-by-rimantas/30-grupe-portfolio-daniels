@@ -20,6 +20,7 @@
 @import './components/numbers-section.css';
 @import './components/progress-bar.css';
 @import './components/about-me.css';
+@import './components/gallery.css';
 
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
 
@@ -149,6 +150,15 @@
 
 
 /* PORTFOLIO START */
+.row>.section-head {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.section-head h2 {
+    background-image: url(http://www.innovationplans.com/idesign/daniels/img/dots.png);
+}
+
 
 
 /* PORTFOLIO END */
