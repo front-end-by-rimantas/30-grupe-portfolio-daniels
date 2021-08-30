@@ -11,12 +11,31 @@ function services() {
     }
 
     if(!Array.isArray(data) || data.length ===) {
-        console.error('ERROR: nevalidus data');
+        console.error('ERROR: nevalidus selector');
         return false;
     }
 
     // 2-logic
+    const DOM = document.querySelector(selector);
+    if (!DOM) {
+        console.error('ERROR: pagal pateikta selector, nepavyko rasti norimo DOM elemento');
+        return false;
+    }
+
     let HTML = ''; /* kuriame funkcija, jos uzduotis sukurti HTML'ą ir jį kažkur įstatyti į tinkamą vietą. Norint sužinoti kur, turėsime gauti selector, duomenis(data), */
+
+    for (const item of data) {
+        if (item.isActive &&
+            ValidityState.nonEmptyString(item.title) &&
+            ValidityState.nonEmptyString(item.description) &&
+            ValidityState.nonEmptyString(item.icon)) {
+            HTML += `<div class="col-12 col-md-6 col-lg-4 service">
+            <i
+            
+            </div>`
+              
+            }
+    }
 
     // 3-post logic validation
 
