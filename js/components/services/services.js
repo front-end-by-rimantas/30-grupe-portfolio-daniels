@@ -30,16 +30,23 @@ function services() {
             ValidityState.nonEmptyString(item.description) &&
             ValidityState.nonEmptyString(item.icon)) {
             HTML += `<div class="col-12 col-md-6 col-lg-4 service">
-            <i
-            
-            </div>`
+            <i class="icon fa fa-${item.icon}"></i>
+            <h3 class="title">${item.title}</h3>
+            <p class="description">${item.description}</p>
+        </div>`;
               
             }
     }
 
     // 3-post logic validation
+    if (HTML === '') {
+        console.error('ERROR: tarp duomenu nera nei vieno validaus irasu, todel nebuvo sugeneruota jokio turinio');
+        return false;
+    }
 
     // 4-result return
+    DOM.innerHTML = HTML;
+    return true;
 }
 
 export { services }
