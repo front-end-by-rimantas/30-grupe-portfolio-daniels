@@ -4,6 +4,29 @@
     gap:40px;
     
 }
+.gallery > .list {
+display:flex;
+gap: 10px;
+justify-content: center;
+font-weight: bold;
+    cursor:pointer;
+    font-size:18px;
+    position: relative;
+
+}
+.gallery > .list > .tag1:active{
+    border-bottom: 4px solid #000;
+}
+.gallery > .list > .tag2:active{
+    border-bottom: 4px solid #000;
+}
+.gallery > .list > .tag3:active{
+    border-bottom: 4px solid #000;
+}
+.gallery > .list > .tag4:active{
+    border-bottom: 4px solid #000;
+}
+
 .gallery > .content{
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));

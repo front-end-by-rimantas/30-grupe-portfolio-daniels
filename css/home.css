@@ -4,11 +4,9 @@
 @import './base/variables.css';
 @import './base/base.css';
 @import './base/layout.css';
-
 /* 3rd-party */
 
 @import './3rd-party/font-awesome.min.css';
-
 /* components */
 
 @import './components/blog.css';
@@ -21,18 +19,13 @@
 @import './components/progress-bar.css';
 @import './components/about-me.css';
 @import './components/gallery.css';
-
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
-
 
 /* RASOME SAVO KODA TIK TARP SIU KOMENTARU KAD SUPRASTUME LOGIKA */
 
-
 /* HEADER START */
 
-
 /* HEADER END */
-
 
 /* HERO START */
 
@@ -110,46 +103,47 @@
     }
 }
 
-
 /* HERO END */
 
-
 /* ABOUT ME START */
+
 .about-me-row h1 {
     font-size: 40px;
     font-style: bold;
 }
-.about-me-row > p{
+
+.about-me-row>p {
     font-style: normal;
-    color:#748182;
+    color: #748182;
     font-size: 20px;
     line-height: 25px;
 }
-.about-me-row > p:first-of-type{
+
+.about-me-row>p:first-of-type {
     font-size: 18px;
     color: #A699A3;
     letter-spacing: 2px;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    ;
 }
 
-.about-me-row > p > span{
+.about-me-row>p>span {
     font-style: bold;
     color: black;
 }
 
-.progress-bar > .progress > .bar > .loading > .value{
+.progress-bar>.progress>.bar>.loading>.value {
     float: right;
 }
-/* ABOUT ME END */
 
+/* ABOUT ME END */
 
 /* SERVICES START */
 
-
 /* SERVICES END */
 
-
 /* PORTFOLIO START */
+
 .row>.section-head {
     margin-bottom: 80px;
     text-align: center;
@@ -157,24 +151,19 @@
 
 .section-head h2 {
     background-image: url(http://www.innovationplans.com/idesign/daniels/img/dots.png);
+    font-weight: bold;
+    font-size: 40px;
 }
-
-
 
 /* PORTFOLIO END */
 
-
 /* TESTIMONIALS START */
-
 
 /* TESTIMONIALS END */
 
-
 /* HAPPY CUSTOMERS/COMPLETE PROJECTS...ACHIEVEMENTS START */
 
-
 /* HAPPY CUSTOMERS/COMPLETE PROJECTS...ACHIEVEMENTS END */
-
 
 /* BLOG START */
 
@@ -185,11 +174,17 @@
 
 .section-head h2 {
     background-image: url(http://www.innovationplans.com/idesign/daniels/img/dots.png);
+    font-weight: bold;
+    font-size: 40px;
 }
 
+@media (max-width: 760px) {
+    .carousel {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* BLOG END  */
-
 
 /* CONTACT US START */
 
@@ -209,17 +204,13 @@
 }
 
 @media (max-width: 500px) {
-    .form input,
-    .form input:last-of-type {
+    .form input, .form input:last-of-type {
         width: 100%;
     }
 }
 
-
 /* CONTACT US END */
 
-
 /* FOOTER START */
-
 
 /* FOOTER END */
