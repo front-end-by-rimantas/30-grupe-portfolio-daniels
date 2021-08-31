@@ -12,7 +12,7 @@ contact .container {
     background-image: url(http://www.innovationplans.com/idesign/daniels/img/dots.png);
     font-weight: bold;
     font-size: 40px;
-    display: inline-block;
+    
 }
 
 .container>.row>.info {
@@ -34,14 +34,14 @@ contact .container {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #f4f4f4;
-    color: #343434;
+    background-color: var(--light-grey-color);
+    color: var(--black-color);
     transition: all .5s;
 }
 
 .info>.item>.icon:hover {
-    background-color: #343434;
-    color: #f4f4f4;
+    background-color: var(--black-color);
+    color: var(--light-grey-color)4;
 }
 
 .fa {
@@ -66,7 +66,7 @@ contact .container {
     float: left;
     border-radius: 5px;
     padding: 10px;
-    background: #f4f4f4;
+    background: var(--light-grey-color);
     margin-bottom: 10px;
     border: 0;
 }
@@ -84,11 +84,12 @@ contact .container {
     width: 100%;
     border-radius: 5px;
     padding: 10px;
-    background: #f4f4f4;
-    height: 160px;
-    max-height: 160px;
+    background: var(--light-grey-color);
+    min-height: 150px;
+    max-height: 250px;
     max-width: 100%;
     border: 0;
+    resize: vertical;
 }
 
 .form textarea:focus-visible {
