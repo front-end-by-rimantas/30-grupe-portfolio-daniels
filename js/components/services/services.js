@@ -1,17 +1,14 @@
+import { Valid } from '../validation/Valid.js';
 
-
-function services() {
-
-    // 4 steps to follow for making a working function:
-
+function services(selector, data) {
     // 1-input validation
-    if (typeof selector !== 'string' || selector ==='') {
+    if (!Valid.nonEmptyString(selector)) {
         console.error('ERROR: nevalidus selector');
         return false;
     }
 
-    if(!Array.isArray(data) || data.length ===) {
-        console.error('ERROR: nevalidus selector');
+    if(!Valid.nonEmptyArray(data)) {
+        console.error('ERROR: nevalidus data');
         return false;
     }
 
@@ -30,10 +27,10 @@ function services() {
             ValidityState.nonEmptyString(item.description) &&
             ValidityState.nonEmptyString(item.icon)) {
             HTML += `<div class="col-12 col-md-6 col-lg-4 service">
-            <i class="icon fa fa-${item.icon}"></i>
-            <h3 class="title">${item.title}</h3>
-            <p class="description">${item.description}</p>
-        </div>`;
+                            <i class="icon fa fa-${item.icon}"></i>
+                            <h3 class="title">${item.title}</h3>
+                            <p class="description">${item.description}</p>
+                    </div>`;
               
             }
     }
