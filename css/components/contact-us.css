@@ -12,7 +12,7 @@ contact .container {
     background-image: url(http://www.innovationplans.com/idesign/daniels/img/dots.png);
     font-weight: bold;
     font-size: 40px;
-    display: inline-block;
+    
 }
 
 .container>.row>.info {
